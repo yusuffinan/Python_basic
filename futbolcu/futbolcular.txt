@@ -1,0 +1,7 @@
+alex, fenerbahçe,
+tadic, fenerbahçe,
+drogba, galatasaray,
+muslera, galatasaray,
+quaresma, beşiktaş,
+salih, beşiktaş,
+mert, beşiktaş,
