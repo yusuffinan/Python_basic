@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lanng="en"> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>
+            {% block title %}
+            BAŞLIK
+            {% endblock  %}
+        </title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       
+    </head>
+    <body>
+        <h3>AnaSayfa</h3>
+        <p>burası AnaSayfa</p>
+        <h3>sayi</h3>
+        <p>{{ number }}</p>
+        <p>{{ article["a"] }}</p>
+        <p>{{ article["b"] }}</p>
+
+        {% block yy %}
+        <p> orası beşiktaş olsa da ne yazar</p>
+
+        {% endblock  %}
+
+    
+    </body>
+</html>
